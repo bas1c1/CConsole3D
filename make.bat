@@ -1,6 +1,6 @@
 @echo off
-@gcc -m32 vector.h main.c
+@gcc -m32 main.c -o build.exe
 @pause
 @cls
-@a.exe
+@build.exe
 @pause
