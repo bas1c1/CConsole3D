@@ -1,5 +1,5 @@
 @echo off
-@gcc -m32 main.c -o build.exe
+@gcc main.c -lgdi32 -o build.exe
 @pause
 @cls
 @build.exe
